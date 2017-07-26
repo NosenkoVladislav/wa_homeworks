@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "Aleo-Bold";
+	src: url("fonts/Aleo-Bold.otf");
+	font-style: normal;
+	font-weight: bold;
+}
+
+	@font-face {
+	font-family: "Aleo-BoldItalic";
+	src: url("fonts/Aleo-BoldItalic.otf");
+	font-style: italic;
+	font-weight: bold;
+}
+
+	@font-face {
+	font-family: "Aleo-Italic";
+	src: url("fonts/Aleo-Italic.otf");
+	font-style: italic;
+	font-weight: normal;
+}
+
+	@font-face {
+	font-family: "Aleo-Light";
+	src: url("fonts/Aleo-Light.otf");
+	font-style: normal;
+	font-weight: 200;
+}
+
+	@font-face {
+	font-family: "Aleo-LightItalic";
+	src: url("fonts/Aleo-LightItalic.otf");
+	font-style: italic;
+	font-weight: 200;
+}
+
+	@font-face {
+	font-family: "Aleo-Regular";
+	src: url("fonts/Aleo-Regular.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+	@font-face {
+	font-family: "Bazar";
+	src: url("fonts/Bazar.ttf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+	@font-face {
+	font-family: "glyphicons";
+	src: url("fonts/glyphicons-halflings-regular.woff");
+	font-style: normal;
+	font-weight: normal;
+}
+
+	@font-face {
+	font-family: "WCManoNegraBta";
+	src: url("fonts/WCManoNegraBta.otf");
+	font-style: normal;
+	font-weight: normal;
+}
+
+	@font-face {
+	font-family: "WCManoNegraBoldBta";
+	src: url("fonts/WCManoNegraBoldBta.otf");
+	font-style: normal;
+	font-weight: bold;
+}

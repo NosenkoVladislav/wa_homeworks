@@ -1,0 +1,225 @@
+	html {
+		font-family: Arial,Helvetica, sans-serif;
+		font-size: 16px;
+	}
+
+	body {
+		margin: 0;
+	}
+
+	.content {
+		width: 1100px;
+		margin: 0 auto;
+	}
+
+	.header {
+		height: 110px;
+	}
+	
+	.clearfix {
+		content: "";
+		display: table;
+		width: 100%;
+		clear: both;
+	}
+
+	.logo {
+		float: left;
+		padding-top: 40px;
+	}
+
+	.nav-bar {
+		display: inline-block;
+		float: right;
+	}
+
+	.nav-bar ul {
+		margin: 0;
+		padding-top: 50px;
+	}
+
+	.nav-bar ul > li {
+		display: inline-block;
+		margin: 0 25px;
+	} 
+	.nav-bar ul > li:last-child {
+		display: inline-block;
+		margin-left: 25px;
+		margin-right: 0;
+	} 
+
+	.nav-bar a {
+		font-family: Aleo-Bold;
+		text-decoration: none;
+		color: #3b3b3b;
+	}
+
+	.background-pic {
+		background-image: url('img/billboard_bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 600px;
+		color: #fff;
+		text-align: center;
+	}
+
+	.background-pic > .title {
+		font-family: WCManoNegraBta;
+		font-size: 85px;
+		margin: 0;
+		padding-top: 225px;
+	}
+
+	.background-pic > .title-description {
+		display: inline-block;
+		padding-top: 10px;
+	}
+
+	.background-pic > .title-description {
+		display: inline-block;
+		padding-top: 10px;
+	}
+
+	.background-pic > .line {
+		width: 40px;
+		height: 1px;
+		background-color: #feffff;
+		display: inline-block;
+		margin: 0 15px 4px 15px;
+	}
+
+	.order-menu {
+		position: relative;
+		overflow: hidden;
+	}
+	
+	.menu_title-wrapper {
+		position: absolute;
+		left: 50%;
+		top: -20px;
+		transform: translateX(-50%);
+	}
+
+	.menu_title {
+		display: inline-block;
+		height: 150px;
+		width: 170px;
+		position: relative;
+	}
+
+	.menu_title > span {
+		position: absolute;
+		width: 120px;
+		font-family: Aleo-Bold;
+		font-size: 22px;
+		top: 35px;
+		left: 53%;
+		transform: translateX(-50%);
+		color: #fff;
+		z-index: 2;
+	}
+
+	.left-box {
+		width: 170px;
+		height: 80px;
+		transform: skewY(-12deg);
+		background-color: #f34949;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.right-box {
+		width: 170px;
+		height: 80px;
+		transform: skewY(12deg);
+		background-color: #f34949;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.menu-wrapper {
+		margin-top: 150px;
+	}
+
+	.menu-left-side {
+		display: inline-block;
+		float: left;
+		width: 47.2%;
+	}
+
+	.menu-right-side {
+		display: inline-block;
+		float: right;
+		width: 47.2%;
+	}
+	
+	.menu-item {
+		display: block;
+		width: 100%;
+		height: 95px;
+	}
+
+	.menu-item .description {
+		display: inline-block;
+		float: left;
+	}
+
+	.menu-item .meal-name {
+		font-family: Aleo-Bold;
+		color: #3b3b3b;
+		display: block;
+	}
+
+	.menu-item .meal-description {
+		font-family: Aleo-LightItalic;
+		color: #b7b7b7;
+		display: block;
+		font-size: 14px;
+	}
+
+	.menu-item  .price{
+		font-family: Aleo-Bold;
+		float: right;
+	}
+
+	.before-line {
+		width: 200px;
+		height: 1px;
+		background-color: #e2e2e2;
+		display: inline-block;
+		float: right;
+		margin-right: 40px;
+		margin-top: 15px;
+	}
+
+	.load {
+		border: 1px solid #b7b7b7;
+		color: #b7b7b7;
+		background-color: #fff;
+		outline: none;
+		font-family: Aleo-Regular;
+		font-size: 16px;
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+	}
+
+	.button-content {
+		padding: 10px;
+	}
+
+	.button-content > span {
+		display: inline-block;
+		padding-right: 8px;
+	}
+
+	.button-content > i {
+		font-weight: bold;
+	}
+
+	.load:hover {
+		cursor: pointer;
+	}
+
+
