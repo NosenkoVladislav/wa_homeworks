@@ -261,19 +261,22 @@
 	}
 
 	.rate {
-		margin-top: 10px;
-		float: left;
+		padding-top: 20px;
+		box-sizing: border-box;
+		padding-right: 145px;
 	}
 
 	.rate i {
 		color: #dfdfdf;
+		float: right;
+		margin: 0 1px;
 	}
 
-	.rate i:hover {
-		color: #eede0f;
-	
+	.rate i:hover,
+	.rate i:hover ~ i {
+		color: #eede0f;	
 	}
-
+ 
 	/* <-- The Gallery section --> */
 	.collage {
 		position: relative;
