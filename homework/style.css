@@ -11,6 +11,8 @@
 		width: 1100px;
 		margin: 0 auto;
 	}
+	
+	/* <-- Header section --> */
 
 	.header {
 		height: 110px;
@@ -31,28 +33,33 @@
 	.nav-bar {
 		display: inline-block;
 		float: right;
+		height: 100%;
 	}
 
 	.nav-bar ul {
 		margin: 0;
-		padding-top: 50px;
 	}
 
 	.nav-bar ul > li {
 		display: inline-block;
-		margin: 0 25px;
-	} 
-	.nav-bar ul > li:last-child {
-		display: inline-block;
-		margin-left: 25px;
-		margin-right: 0;
+		height: 110px;
 	} 
 
 	.nav-bar a {
 		font-family: Aleo-Bold;
 		text-decoration: none;
+		display: inline-block;
+		padding: 46px 30px;
 		color: #3b3b3b;
 	}
+
+	.nav-bar a:hover {
+		background-color: #555555;
+		color: #fff;
+		transition: background-color 1s;
+	}
+
+	/* <-- Background pic section --> */
 
 	.background-pic {
 		background-image: url('img/billboard_bg.png');
@@ -88,6 +95,8 @@
 		display: inline-block;
 		margin: 0 15px 4px 15px;
 	}
+	
+	/* <-- Menu section --> */
 
 	.order-menu {
 		position: relative;
@@ -221,5 +230,145 @@
 	.load:hover {
 		cursor: pointer;
 	}
+
+	/* <-- The Futured dishes section --> */
+
+	.futured_dishes {
+		position: relative;
+	}
+	
+	.dishes-items {
+		display: inline-block;
+		width: 230px;
+		padding-right: 55px;
+		text-align: center;
+		font-family: Aleo-Regular;
+	}
+
+	.dishes-items:last-child {
+		padding-right: 0;
+	}
+		
+	.description-dishes {
+		margin-top: 5px;
+	}
+	.future-name {
+		float: left;
+	}
+
+	.future-price {
+		float: right;
+	}
+
+	.rate {
+		margin-top: 10px;
+		float: left;
+	}
+	
+	.rate i {
+		color: #dfdfdf;
+	}
+
+	.rate i:hover {
+		color: #eede0f;
+	
+	}
+
+	/* <-- The Gallery section --> */
+	.collage {
+		position: relative;
+		margin-top: 200px;
+		margin-bottom: 200px;
+	}
+
+	.second-title h1 {
+		text-transform: uppercase;
+		font-family: Aleo-Bold;
+		color: #3b3b3b;
+		margin-bottom: 80px;
+
+	}
+
+	.after-line {
+		width: 350px;
+		height: 1px;
+		background-color: #e4e4e4;
+		position: absolute;
+		top: 35px;
+    	left: 180px;
+	}
+
+	.big-left-block {
+		display: inline-block;
+		float: left;
+		position: relative;
+		height: 432px;
+	}
+
+	.small-right-block {
+		display: inline-block;
+		float: right;
+		position: relative;
+		height: 216px;
+	}
+
+	.cover-block {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+		background-color: rgba(6, 6, 6, 0.5);
+	}
+	.cover-block:hover {
+		background-color: transparent;
+		transition: 1s;
+	}
+
+	/* <-- Footer section --> */
+	
+	.footer {
+		background-color: #3b3b3b;
+		min-height: 320px;
+	}
+	
+	.footer-wrapper {
+		padding-top: 100px;
+		min-height: 200px;
+	}
+
+	.footer-block {
+		display: inline-block;
+		width: 230px;
+		margin-right: 20px;
+		vertical-align: text-top;
+	}
+
+	.footer-block span{
+		display: block;
+		color: #fff;
+		margin-top: 18px;
+	}
+
+	.footer-block .bold {
+		font-family: Aleo-Bold;
+	}
+
+	.footer-block .normal {
+		font-family: Aleo-Light;
+	}
+
+	.white-logo {
+		display: inline-block;
+		padding-top: 18px;
+	}
+
+	.footer-block a {
+		text-decoration: none;
+		font-family: Aleo-Bold;
+		color: #fff;
+	}
+
+
+
 
 
